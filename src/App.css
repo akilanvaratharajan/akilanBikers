@@ -1,0 +1,225 @@
+.headerLayout{
+  position: fixed;
+  width: 100%;
+  background: #1c3443;
+  border-bottom: 1px solid #27586f;
+  z-index: 1;
+}
+.headerSubLayer{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0px 40px;
+}
+.imageLyer{
+  flex: 0 0 15%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.imageLyer img{
+  max-width: 100%;
+  height: 100%;
+}
+.imageLyer span{
+  padding-left: 10px;
+  color: white;
+  font-size: 12px;
+}
+.rightSection{
+  flex-grow: 1;
+  display: flex;
+  color: white;
+  justify-content: flex-end;
+  align-items: center;
+}
+.rightSection div{
+  margin: 0px 30px;
+  cursor: pointer;
+}
+.rightSection div:hover{
+  border-bottom: 1.5px solid white;
+  border-radius: 0px 0px 1px 1px;
+}
+.rightSection div:last-child{
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: unset;
+    border-radius: 4px;
+}
+.sections{
+  padding: 80px 0px;
+  background: #1c3443;
+}
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.leftSide{
+  flex: 0 0 calc(60% - 40px);
+  max-width: calc(60% - 40px);
+  color: white;
+  padding: 0px 20px;
+}
+.section1{
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  display: flex;
+}
+.rightSide{
+  flex: 0 0 calc(40% - 40px);
+  max-width: calc(40% - 40px);
+  color: white;
+  padding: 0px 20px;
+}
+.rightSide img{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.leftSide div:first-child{
+  font-size: 40px;
+  line-height: 36px;
+  padding-bottom: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.leftSide div:nth-child(2){
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+.leftSide div:nth-child(3){
+  padding-bottom: 30px;
+  display: inline-flex;
+}
+.leftSide div:nth-child(3){
+  text-decoration: none;
+  color: #1c3443;
+  background: white;
+  padding: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.section2{
+  background: #eff1f1;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.header{
+  font-size: 20px;
+  color: #1c3443;
+  padding-bottom: 30px;
+}
+.cardLayer{
+  display: flex;
+  margin: 0px -15px;
+}
+.card{
+  flex: 0 0 calc(33.33% - 30px);
+  max-width: calc(33.33% - 30px);
+  margin: 0px 15px;
+  box-shadow: 5px 5px 20px 2px rgb(194 194 194);
+  border-radius: 12px;
+}
+.imgLayer{
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+  position: relative;
+  height: 255px;
+}
+.imgLayer img{
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+  height: 100%;
+}
+.imgLayer div{
+  position: absolute;
+  color: white;
+  font-size: 14px;
+  background: #1c3443;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  bottom: -14px;
+  left: 14px; 
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* font-size: 13px; */
+  color: #1c3443;
+}
+.content div:first-child{
+  font-size: 18px;
+  font-weight: 600;
+}
+.content div:nth-child(2) span:first-child{
+  /* font-size: 12; */
+}
+.content div:nth-child(2) span:nth-child(2){
+  font-size: 24px;
+  font-weight: 600;
+}
+.card div:nth-child(3){
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  color: #1c3443;
+}
+.card div:nth-child(3) a{
+  padding: 6px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 1px solid #1c3443;
+  cursor: pointer;
+  text-decoration: none;
+  color: #1c3443;
+}
+.section3{
+  background: #1c3443;;
+  padding: 40px 300px 40px 300px;
+  /* max-width: 300px; */
+}
+.gridCol{
+  padding: 30px !important;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 16px rgb(0 0 0 / 14%);
+}
+.total{
+  font-size: 20px;
+  padding-left: 5px;
+  color: #fbbd08!important;
+}
+.detail{
+  display: flex;
+  padding: 6px 0px;
+  align-items: center;
+}
+.preview{
+  padding: 0px 30px;
+}
+.detail div:first-child{
+  width: 140px;
+  color: #7c82a2;
+  font-size: 1rem;
+  line-height: 21px;
+}
+.detail div:nth-child(2){
+  font-weight: 600;
+}
+.ui.success.message{
+  padding: 0px !important;
+}
+.ui.success.message .header{
+  padding: 0px !important;
+}
